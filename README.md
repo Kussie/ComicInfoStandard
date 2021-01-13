@@ -11,3 +11,11 @@ This file has been adopted by many downloaders, libraries and applications since
 ## Proposal
 ### 3.0
 The main goal of 3.0 is to try to move it further away from being tailored to Manga and more generic usage allowing potential adoption for comics, graphic novels and others.
+* Removed isManga field and replaced with a more generic `Type` field
+* Added a field for series synonyms `SeriesAlsoKnownAs`
+* Added `Tags` field for a list of tags, which are usually treated separately to genres.
+* Added a `Rating` decimal field to hold the value of a rating (Usually from third party source and rated out of 10)
+* Added a `ReadingDirection` field
+* Simplified range of known `AgeRating`
+* Added a boolean field `Licensed` that determines whether something has been licenced by a known publisher
+* Added a field `LicensedPublisher` that can store the name of the licenced publisher

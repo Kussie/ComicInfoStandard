@@ -28,6 +28,8 @@
             <xs:element minOccurs="0" maxOccurs="1" default="" name="CoverArtist" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Editor" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Publisher" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" default="" name="Licensed" type="xs:boolean" />
+            <xs:element minOccurs="0" maxOccurs="1" default="" name="LicensedPublisher" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Imprint" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Genre" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Tags" type="xs:string" />
