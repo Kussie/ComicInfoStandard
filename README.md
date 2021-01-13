@@ -8,6 +8,10 @@ The history of this file stems from use in the application ComicRack, there has 
 
 This file has been adopted by many downloaders, libraries and applications since it's inception, and some of these have made their own changes to it resulting in what can be a bit of a headache in its support in various different places.
 
+## Anansi Project
+A worthy project trying to push and adopt a standard format for metadata across comics/mangas https://github.com/anansi-project/rfcs
+
+
 ## Proposal
 ### 3.0
 The main goal of 3.0 is to try to move it further away from being tailored to Manga and more generic usage allowing potential adoption for comics, graphic novels and others.
