@@ -19,3 +19,5 @@ The main goal of 3.0 is to try to move it further away from being tailored to Ma
 * Simplified range of known `AgeRating`
 * Added a boolean field `Licensed` that determines whether something has been licenced by a known publisher
 * Added a field `LicensedPublisher` that can store the name of the licenced publisher
+* Added `SchemaVersion` to the `ComicInfo` element to specify a template version
+* Added `SchemaTemplate` to the `ComicInfo` element to specify a url to the defined template

@@ -49,6 +49,8 @@
             <xs:element minOccurs="0" maxOccurs="1" default="0" name="PageCount" type="xs:int" />
             <xs:element minOccurs="0" maxOccurs="1" name="Pages" type="ArrayOfComicPageInfo" />
         </xs:sequence>
+        <xs:attribute default="2.0" name="SchemaVersion" type="xs:decimal" />
+        <xs:attribute default="https://github.com/Kussie/ComicInfoStandard/blob/2.0/ComicInfo.xsd" name="SchemaTemplate" type="xs:string" />
     </xs:complexType>
     <xs:simpleType name="YesNo">
         <xs:restriction base="xs:string">
