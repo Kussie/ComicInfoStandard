@@ -18,7 +18,6 @@
             <xs:element minOccurs="0" maxOccurs="1" default="-1" name="Month" type="xs:int" />
             <xs:element minOccurs="0" maxOccurs="1" default="-1" name="Day" type="xs:int" />
             <xs:element minOccurs="0" maxOccurs="1" default="-1" name="Rating" type="xs:decimal" />
-            <xs:element minOccurs="0" maxOccurs="1" default="" name="Author" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Artist" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Writer" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Penciller" type="xs:string" />
@@ -28,7 +27,7 @@
             <xs:element minOccurs="0" maxOccurs="1" default="" name="CoverArtist" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Editor" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Publisher" type="xs:string" />
-            <xs:element minOccurs="0" maxOccurs="1" default="" name="Licensed" type="xs:boolean" />
+            <xs:element minOccurs="0" maxOccurs="1" default="" name="Licensed" type="YesNo" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="LicensedPublisher" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Imprint" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Genre" type="xs:string" />
@@ -37,6 +36,7 @@
             <xs:element minOccurs="0" maxOccurs="1" default="" name="LanguageISO" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Format" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="Unknown" name="BlackAndWhite" type="YesNo" />
+            <xs:element minOccurs="0" maxOccurs="1" default="Unknown" name="Coloured" type="YesNo" />
             <xs:element minOccurs="0" maxOccurs="1" default="Unknown" name="Type" type="Type" />
             <xs:element minOccurs="0" maxOccurs="1" default="Unknown" name="ReadingDirection" type="ReadingDirection" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Characters" type="xs:string" />
@@ -62,6 +62,7 @@
             <xs:enumeration value="Unknown" />
             <xs:enumeration value="RightToLeft" />
             <xs:enumeration value="LeftToRight" />
+            <xs:enumeration value="Vertical" />
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="Type">
